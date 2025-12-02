@@ -1,6 +1,8 @@
-﻿#include <iostream>
+﻿#include "showcase/Showcase.h"
+#include <locale.h>
 
 int main() {
-    std::cout << "Project initialized\n";
+    setlocale(LC_ALL, "Russian");
+    Showcase::run();
     return 0;
 }
